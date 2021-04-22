@@ -396,7 +396,7 @@ def expand_grid(dct):
 
 def main():
     print('in')
-    dct={'country':['CH'],'conf':[1],'house_type':['SFH100','SFH15','SFH45'],'HP':['AS']}
+    dct={'country':['CH'],'conf':[3],'house_type':['SFH100','SFH15','SFH45'],'HP':['AS']}
     Total_combs=expand_grid(dct)
     print(Total_combs)
     combinations=Total_combs.loc[0]
